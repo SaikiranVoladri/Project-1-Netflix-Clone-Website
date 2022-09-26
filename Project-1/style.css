@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* statting of header section in css */
+.show{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url("background_landing.jpg") no-repeat center center/cover;
+
+}
+.show::after{
+    content: '';  /*The content property is used with the ::before and ::after pseudo-elements, to insert generated content. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;  /*The z-index property specifies the stack order of an element. */
+    background: rbga(0, 0, 0, 0.6);  /*light blackcolor backside */
+    box-shadow: inset 120px 100px 250px #000000 , inset -120px -100px 250px #000000;
+
+}
+/* navigation bar */
+.show-top{
+    position: relative;
+    z-index: 2;
+    padding: 26 0 0 55px;
+    padding-top: 10px;
+
+}
+/* reducing size/height of netflix logo */
+.show-top #logo{
+    height: 40px;
+    padding-left: 15px;
+    
+}
+/* styling sign in button */
+.show-top .submit{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border: none;
+    padding: 5px 16px;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    right: 55px;
+    
+}
+/* styling language selection bar */
+.show-top select{
+    background-color: transparent;
+    color: rgb(232, 229, 241);
+    padding: 5px 10px;
+    border-radius: 3px;
+    float: right;
+    right: 85px;
+    position: relative;
+   
+}
+/* background color for language */
+.show-top select option{
+    color: #000000;
+}
+/* css for get started data  for data inside frontpage*/
+.show .get-started-data{
+    z-index: 2;
+    position: relative;
+    top:180px;
+    width: 100%;
+    text-align: center;
+}
+.show .get-started-data h1,p{
+    color:white;
+}
+.show .get-started-data h1{
+    font-size:3.9rem;
+}
+.show .get-started-data .para-1{
+    font-size: 1.7rem;
+}
+.show .get-started-data .para-2{
+    font-size: 1.3rem;
+}
+
+.show .get-started-data input{
+    width: 33%;
+    padding: 22px;
+    border: none;
+    margin-top: 0.25%;
+    outline: none;
+}
+.show .get-started-data button{
+    padding: 22px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-left: -0.3%;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+/* 
+ code for other devices viewed in inspect
+responsive css code for nav bar */
+@media(max-width:943px){
+    .show .get-started-data{
+        position: relative;
+        top: 90px;
+    }
+    .show .get-started-data h1{
+        font-size: 3.4rem;
+    }
+    .show .get-started-data .para-1{
+        font-size: 1.5rem;
+    }
+    .show .get-started-data .para-2{
+        font-size: 1rem;
+    }
+    .show .get-started-data input{
+        padding: 17px;
+        width: 55%;
+    }
+    .show .get-started-data button{
+        display: block;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        padding: 12px;
+
+    }
+
+}
+@media(max-width:659px){
+    .show-top{
+        padding: 26px 0px 0px 25px;
+    }
+    .show-top #logo{
+        height: 25px;
+    }
+    .show-top .submit{
+        position: relative;
+        right: 25px;
+        padding: 2px 10px;
+    }
+    .show-top .submit{
+        position: relative;
+        right: 40px;
+        padding: 2px 10px;
+    }
+    /*  for get satrted bar */
+    .show .get-started-data{
+        top : 60px;
+        position: relative    
+    }
+    .show .get-started-data h1{
+        font-size: 2rem;
+        padding: 50px;
+        padding-bottom: 0px;
+    }
+    .show .get-started-data .para-1{
+        font-size: 1.5rem;
+    }
+    .show .get-started-data .para-2{
+        font-size: 1rem;
+    }
+    .show .get-started-data input{
+        padding: 14px;
+        width:70%;
+    }
+}
+@media(max-width:346px){
+    .show-top #logo{
+        height: 22px;
+    }
+    .show-top .submit{
+        padding: 1px 5px;
+    }
+    .show-top select{
+        padding: 1px 0px;
+        position: relative;
+        right:30px;
+    }
+    .show .get-started-data h1{
+        font-size: 1.5rem;
+    }
+    .show .get-started-data .para-1{
+        font-size: 1.1rem;   
+    }
+    .show .get-started-data .para-2{
+        font-size: 0.8rem;   
+    }
+    
+
+}
+
+
+
