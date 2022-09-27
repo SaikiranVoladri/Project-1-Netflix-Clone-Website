@@ -20,7 +20,7 @@
      height: 100%;
      z-index: 1;  /*The z-index property specifies the stack order of an element. */
      background: rbga(0, 0, 0, 0.6);  /*light blackcolor backside */
-     box-shadow: inset 120px 100px 250px #000000 , inset -120px -100px 250px #000000;
+     box-shadow: inset 250px 250px 450px #000000 , inset -190px -190px 290px #000000;
 
     }
  /* navigation bar */
@@ -80,6 +80,7 @@
  }
  .show .get-started-data .para-1{
      font-size: 1.7rem;
+     
  }
  .show .get-started-data .para-2{
      font-size: 1.3rem;
@@ -119,7 +120,7 @@
  .main-section .section-box .left-col h1{
      color: white;
      font-size: 3.4rem;
-     /* padding-right: 100px; */
+     
  }
  .main-section .section-box .left-col h3{
      color: white;
