@@ -1,106 +1,147 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
 }
-/* statting of header section in css */
-.show{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background: url("/Project-1/images/background_landing.jpg") no-repeat center center/cover;
+ /* statting of header section in css */
+   .show{
+       width: 100%;
+      height: 100vh;
+      position: relative;
+      background: url("/Project-1/images/background_landing.jpg") no-repeat center center/cover;
 
-}
-.show::after{
-    content: '';  /*The content property is used with the ::before and ::after pseudo-elements, to insert generated content. */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;  /*The z-index property specifies the stack order of an element. */
-    background: rbga(0, 0, 0, 0.6);  /*light blackcolor backside */
-    box-shadow: inset 120px 100px 250px #000000 , inset -120px -100px 250px #000000;
+     }
+ .show::after{
+     content: '';  /*The content property is used with the ::before and ::after pseudo-elements, to insert generated content. */
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 1;  /*The z-index property specifies the stack order of an element. */
+     background: rbga(0, 0, 0, 0.6);  /*light blackcolor backside */
+     box-shadow: inset 120px 100px 250px #000000 , inset -120px -100px 250px #000000;
 
-}
-/* navigation bar */
-.show-top{
-    position: relative;
-    z-index: 2;
-    padding: 26 0 0 55px;
-    padding-top: 10px;
+    }
+ /* navigation bar */
+ .show-top{
+     position: relative;
+     z-index: 2;
+     padding: 26 0 0 55px;
+     padding-top: 10px;
 
-}
-/* reducing size/height of netflix logo */
-.show-top #logo{
-    height: 40px;
-    padding-left: 15px;
+    }
+  /* reducing size/height of netflix logo */
+   .show-top #logo{
+     height: 40px;
+     padding-left: 15px;
     
-}
-/* styling sign in button */
-.show-top .submit{
-    background-color: rgb(255, 0, 0);
-    color: aliceblue;
-    border: none;
-    padding: 5px 16px;
-    border-radius: 3px;
-    float: right;
-    position: relative;
-    right: 55px;
+    }
+  /* styling sign in button */
+ .show-top .submit{
+     background-color: rgb(255, 0, 0);
+     color: aliceblue;
+     border: none;
+     padding: 5px 16px;
+     border-radius: 3px;
+     float: right;
+     position: relative;
+     right: 55px;
     
-}
-/* styling language selection bar */
-.show-top select{
-    background-color: transparent;
-    color: rgb(232, 229, 241);
-    padding: 5px 10px;
-    border-radius: 3px;
-    float: right;
-    right: 85px;
-    position: relative;
+ }
+ /* styling language selection bar */
+ .show-top select{
+     background-color: transparent;
+     color: rgb(232, 229, 241);
+     padding: 5px 10px;
+     border-radius: 3px;
+     float: right;
+     right: 85px;
+     position: relative;
    
-}
-/* background color for language */
-.show-top select option{
-    color: #000000;
-}
-/* css for get started data  for data inside frontpage*/
-.show .get-started-data{
-    z-index: 2;
-    position: relative;
-    top:180px;
+ }
+ /* background color for language */
+  .show-top select option{
+     color: #000000;
+ }
+ /* css for get started data  for data inside frontpage*/
+  .show .get-started-data{
+     z-index: 2;
+     position: relative;
+     top:180px;
+     width: 100%;
+     text-align: center;
+ }
+ .show .get-started-data h1,p{
+     color:white;
+ }
+ .show .get-started-data h1{
+     font-size:3.9rem;
+ }
+ .show .get-started-data .para-1{
+     font-size: 1.7rem;
+ }
+ .show .get-started-data .para-2{
+     font-size: 1.3rem;
+ }
+
+ .show .get-started-data input{
+     width: 33%;
+     padding: 22px;
+     border: none;
+     margin-top: 0.25%;
+     outline: none;
+ }
+ .show .get-started-data button{
+     padding: 22px;
+     border: none;
+     background-color: red;
+     color: white;
+     margin-left: -0.3%;
+     font-weight: bold;
+
+ }
+
+
+ /* css styling for first main section */
+ /* styling for enjoy on your TV */
+ .main-section .section-box{
+     border-top: 8px solid #222;
+     background-color: black;
+     display: flex;
+     padding: 0px 80px ;
+     padding-bottom: 90pxpx;
+ }
+.main-section .section-box .left-col{
+     padding-top: 13%;
+     padding-right: 2%;
+ }
+ .main-section .section-box .left-col h1{
+     color: white;
+     font-size: 3.4rem;
+     /* padding-right: 100px; */
+ }
+ .main-section .section-box .left-col h3{
+     color: white;
+     font-size: 1.7rem;
+     font-weight: normal;
+     margin-top: 5%;
+ }
+ .main-section .section-box .right-col{
+     overflow: hidden;
+     position: relative;
+     width: 80%;
+     height:850px;
+ }
+ .main-section .section-box .right-col img{
+    position: absolute;
     width: 100%;
-    text-align: center;
-}
-.show .get-started-data h1,p{
-    color:white;
-}
-.show .get-started-data h1{
-    font-size:3.9rem;
-}
-.show .get-started-data .para-1{
-    font-size: 1.7rem;
-}
-.show .get-started-data .para-2{
-    font-size: 1.3rem;
-}
-
-.show .get-started-data input{
-    width: 33%;
-    padding: 22px;
-    border: none;
-    margin-top: 0.25%;
-    outline: none;
-}
-.show .get-started-data button{
-    padding: 22px;
-    border: none;
-    background-color: red;
-    color: white;
-    margin-left: -0.3%;
-    font-weight: bold;
-
-}
+ }
+ .main-section .section-box .right-col .video-1{
+      margin-left: 13%;
+      margin-top: 16%;
+      width: 73%;
+ }
 
 
 
@@ -109,10 +150,10 @@
 
 
 
-/* 
- code for other devices viewed in inspect
-responsive css code for nav bar */
-@media(max-width:943px){
+ /* 
+  code for other devices viewed in inspect
+ RESPONSIVE CSS CODE FOR NAV BAR */
+ @media(max-width:943px){
     .show .get-started-data{
         position: relative;
         top: 90px;
@@ -140,8 +181,8 @@ responsive css code for nav bar */
 
     }
 
-}
-@media(max-width:659px){
+ }
+ @media(max-width:659px){
     .show-top{
         padding: 26px 0px 0px 25px;
     }
@@ -178,8 +219,8 @@ responsive css code for nav bar */
         padding: 14px;
         width:70%;
     }
-}
-@media(max-width:346px){
+ }
+ @media(max-width:346px){
     .show-top #logo{
         height: 22px;
     }
