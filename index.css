@@ -8,7 +8,7 @@
        width: 100%;
       height: 100vh;
       position: relative;
-      background: url("images/background_landing.jpg") no-repeat center center/cover;
+      background: url("https://github.com/SaikiranVoladri/Project-1-Netflix-Clone-Website/raw/main/images/background_landing.jpg") no-repeat center center/cover;
 
      }
  .showcase::after{
