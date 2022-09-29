@@ -4,14 +4,14 @@
      box-sizing: border-box;
 }
  /* statting of header section in css */
-   .show{
+   .showcase{
        width: 100%;
       height: 100vh;
       position: relative;
       background: url("/Project-1/images/background_landing.jpg") no-repeat center center/cover;
 
      }
- .show::after{
+ .showcase::after{
      content: '';  /*The content property is used with the ::before and ::after pseudo-elements, to insert generated content. */
      position: absolute;
      top: 0;
@@ -24,7 +24,7 @@
 
     }
  /* navigation bar */
- .show-top{
+ .showcase-top{
      position: relative;
      z-index: 2;
      padding: 26 0 0 55px;
@@ -32,13 +32,13 @@
 
     }
   /* reducing size/height of netflix logo */
-   .show-top #logo{
+   .showcase-top #logo{
      height: 40px;
      padding-left: 15px;
     
     }
   /* styling sign in button */
- .show-top .submit{
+ .showcase-top .submit{
      background-color: rgb(255, 0, 0);
      color: aliceblue;
      border: none;
@@ -50,7 +50,7 @@
     
  }
  /* styling language selection bar */
- .show-top select{
+ .showcase-top select{
      background-color: transparent;
      color: rgb(232, 229, 241);
      padding: 5px 10px;
@@ -61,39 +61,39 @@
    
  }
  /* background color for language */
-  .show-top select option{
+  .showcase-top select option{
      color: #000000;
  }
  /* css for get started data  for data inside frontpage*/
-  .show .get-started-data{
+  .showcase .get-started-container{
      z-index: 2;
      position: relative;
      top:180px;
      width: 100%;
      text-align: center;
  }
- .show .get-started-data h1,p{
+ .showcase .get-started-container h1,p{
      color:white;
  }
- .show .get-started-data h1{
+ .showcase .get-started-container h1{
      font-size:3.9rem;
  }
- .show .get-started-data .para-1{
+ .showcase .get-started-container .para-1{
      font-size: 1.7rem;
      
  }
- .show .get-started-data .para-2{
+ .showcase .get-started-container .para-2{
      font-size: 1.3rem;
  }
 
- .show .get-started-data input{
+ .showcase .get-started-container input{
      width: 33%;
      padding: 22px;
      border: none;
      margin-top: 0.25%;
      outline: none;
  }
- .show .get-started-data button{
+ .showcase .get-started-container button{
      padding: 22px;
      border: none;
      background-color: red;
@@ -106,47 +106,111 @@
 
  /* css styling for first main section */
  /* styling for enjoy on your TV */
- .main-section .section-box{
+ .main-section .section-container{
      border-top: 8px solid #222;
      background-color: black;
      display: flex;
-     padding: 0px 80px ;
-     padding-bottom: 90pxpx;
+     padding: 0px 90px ;
+     padding-bottom: 80px;
  }
-.main-section .section-box .left-col{
+.main-section .section-container .left-column{
      padding-top: 13%;
      padding-right: 2%;
  }
- .main-section .section-box .left-col h1{
+ .main-section .section-container .left-column h1{
      color: white;
      font-size: 3.4rem;
      
  }
- .main-section .section-box .left-col h3{
+ .main-section .section-container .left-column h3{
      color: white;
      font-size: 1.7rem;
      font-weight: normal;
      margin-top: 5%;
  }
- .main-section .section-box .right-col{
+ .main-section .section-container .right-column{
      overflow: hidden;
      position: relative;
-     width: 80%;
-     height:850px;
+     width: 50%;
+     height:500px;
  }
- .main-section .section-box .right-col img{
+ .main-section .section-container .right-column img{
     position: absolute;
     width: 100%;
  }
- .main-section .section-box .right-col .video-1{
+ .main-section .section-container .right-column .video-1{
       margin-left: 13%;
       margin-top: 16%;
       width: 73%;
  }
+    /*DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+    .main-section .section2-container{
+        border-top: 8px solid #222;
+        background-color: black;
+        display: flex;
+        padding: 0px 80px;
+        padding-bottom: 90px;
+    }
+    .main-section .section2-container .left-column img{
+        width: 100%;
+    }
+    .main-section .section2-container .left-column .box{
+        border: 2px solid rgba(255,255,255,.25);
+        background-color: black;
+        border-radius: 10px;
+        width: 60%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        margin-top: -22%;
+    }
+    .main-section .section2-container .left-column .box .boxshot{
+        width: 15%;
+    }
+    .main-section .section2-container .left-column .box p{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .main-section .section2-container .left-column .box p a{
+        text-decoration: none;
+    }
+    .main-section .section2-container .left-column .box .download-gif{
+        width: 3em;
+        height: 3em;
+        position: absolute; 
+        right: 0;
+    }
+    .main-section .section2-container .right-column{
+        padding-top: 13%;
+        padding-right: 2%;
+        width: 50%;
+    }
+    .main-section .section2-container .right-column h1{
+        color: white;
+    }
+    .main-section .section2-container .right-column h3{
+        color: white;
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 5%;
+    }
 
+    
+    /* watch everywhere section */
+    .main-section .section-container .right-column .video-2{
+        margin-left: 19%;
+        margin-top: 8%;
+        width: 61%;
 
+    }
+    /* profile for kids */
+    .main-section .section2-container .left-column img{
+        width: 100%;
 
-
+    }
 
 
 
@@ -154,97 +218,205 @@
  /* 
   code for other devices viewed in inspect
  RESPONSIVE CSS CODE FOR NAV BAR */
- @media(max-width:943px){
-    .show .get-started-data{
+ @media (max-width:1100px) {
+    footer .content .middle{
+      padding-left: 50px;
+    }
+}
+  
+@media (max-width: 943px){
+    /*GET STARTED*/
+    .showcase .get-started-container{
         position: relative;
         top: 90px;
     }
-    .show .get-started-data h1{
+    .showcase .get-started-container h1{
         font-size: 3.4rem;
     }
-    .show .get-started-data .para-1{
+    .showcase .get-started-container .para-1{
         font-size: 1.5rem;
     }
-    .show .get-started-data .para-2{
+    .showcase .get-started-container .para-2{
         font-size: 1rem;
     }
-    .show .get-started-data input{
+    .showcase .get-started-container input{
         padding: 17px;
         width: 55%;
     }
-    .show .get-started-data button{
+    .showcase .get-started-container button{
         display: block;
         display: flex;
         align-items: center;
         margin: 0 auto;
         margin-top: 1.5%;
         padding: 12px;
-
     }
+    /*ENJOY ON YOUR TV*/
+    .main-section .section-container{
+        display: block;
+    }
+    .main-section .section-container .left-column{
+        width: 100%;
+        text-align: center;
+    }
+    .main-section .section-container .right-column{
+        width: 100%;
+    }
+    /*DOWNLOAD YOU SHOW TO WATCH OFFLINE*/
+    .main-section .section2-container{
+        display: block;
+    }
+    .main-section .section2-container .left-column{
+        width: 100%;
+    }
+    .main-section .section2-container .right-column{
+        width: 100%;
+        text-align: center;
+    }
+    /*EMAIL ADDRESS*/
+    .email-address-container input{
+        padding: 17px;
+        width: 55%;
+    }
+    .email-address-container button{
+        display: block;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        padding: 12px;
+    }
+    /* FOOTER SECTION */
+    footer .content .box{
+        width: 50%;
+      }
+}
 
- }
- @media(max-width:659px){
-    .show-top{
+@media (max-width:  774px){
+    /* ENJOY ON YOUR TV */
+    .main-section .section-container{
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width: 659px){
+    /*NAVBAR*/
+    .showcase-top{
         padding: 26px 0px 0px 25px;
     }
-    .show-top #logo{
+    .showcase-top #logo{
         height: 25px;
     }
-    .show-top .submit{
+    .showcase-top .submit{
         position: relative;
         right: 25px;
         padding: 2px 10px;
     }
-    .show-top .submit{
+    .showcase-top select{
         position: relative;
         right: 40px;
         padding: 2px 10px;
     }
-    /*  for get satrted bar */
-    .show .get-started-data{
-        top : 60px;
-        position: relative    
+    /* GET STARTED */
+    .showcase .get-started-container{
+        position: relative;
+        top: 60px;
     }
-    .show .get-started-data h1{
+    .showcase .get-started-container h1{
         font-size: 2rem;
         padding: 50px;
         padding-bottom: 0px;
     }
-    .show .get-started-data .para-1{
+    .showcase .get-started-container .para-1{
         font-size: 1.5rem;
     }
-    .show .get-started-data .para-2{
+    .showcase .get-started-container .para-2{
         font-size: 1rem;
     }
-    .show .get-started-data input{
+    .showcase .get-started-container input{
         padding: 14px;
-        width:70%;
+        width: 70%;
     }
- }
- @media(max-width:346px){
-    .show-top #logo{
-        height: 22px;
+    /* QUESTION SECTION STARTS */
+    .question-container button{
+        width: 100%;
     }
-    .show-top .submit{
-        padding: 1px 5px;
+    .question-container .answer1,
+    .answer2,
+    .answer3,
+    .answer4,
+    .answer5,
+    .answer6{
+        width: 100%;
     }
-    .show-top select{
-        padding: 1px 0px;
-        position: relative;
-        right:30px;
+    /*EMAIL ADDRESS*/
+    .email-address-container input{
+        padding: 14px;
+        width: 70%;
     }
-    .show .get-started-data h1{
-        font-size: 1.5rem;
-    }
-    .show .get-started-data .para-1{
-        font-size: 1.1rem;   
-    }
-    .show .get-started-data .para-2{
-        font-size: 0.8rem;   
-    }
-    
-
 }
 
+@media (max-width: 500px){
+    .showcase .get-started-container h1{
+        font-size: 1.8rem;
+    }
+    .showcase .get-started-container .para-1{
+        font-size: 1.3rem;
+    }
+    .showcase .get-started-container .para-2{
+        font-size: 0.9rem;
+    }
+    .showcase .get-started-container input{
+        padding: 12px;
+        width: 80%;
+    }
+    /*ENJOY ON YOUR TV*/
+    .main-section .section-container .right-column{
+        height: 270px;
+    }
+    /* DOWNLOAD YOUR SHOW TO WATCH OFFLINE */
+    .main-section .section2-container .left-column .box{
+        width: 100%;
+    }
+    /*EMAIL ADDRESS*/
+    .email-address-container input{
+        padding: 12px;
+        width: 80%;
+    }
+    /* FOOTER SECTION */
+    footer{
+        position: relative;
+      }
+      footer .content .box{
+        width: 100%;
+        margin-top: 30px;
+      }
+      footer .content .middle{
+        padding-left: 0;
+      }
+}
 
-
+@media(max-width: 346px){
+    /*NAVBAR*/
+    .showcase-top #logo{
+        height: 22px;
+    }
+    .showcase-top .submit{
+        padding: 1px 5px;
+    }
+    .showcase-top select{
+        padding: 1px 0px;
+        position: relative;
+        right: 30px;
+    }
+    /* GET STARTED */
+    .showcase .get-started-container h1{
+        font-size: 1.5rem;
+    }
+    .showcase .get-started-container .para-1{
+        font-size: 1.1rem;
+    }
+    .showcase .get-started-container .para-2{
+        font-size: 0.8rem;
+    }
+}
