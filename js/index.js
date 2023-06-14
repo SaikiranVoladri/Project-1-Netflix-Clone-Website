@@ -1,4 +1,4 @@
-// question-1
+// question-1 //
 const targetDiv = document.getElementById("answer1");
 const btn = document.getElementById("question1");
 btn.onclick = function () {
