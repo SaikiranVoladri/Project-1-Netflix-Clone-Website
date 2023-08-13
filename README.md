@@ -14,7 +14,7 @@ Developed a responsive and visually appealing Netflix frontend clone using HTML,
 - Intuitive navigation menu and search bar for easy content exploration.
 
 ## Live Demo
-There is an issue in GitHub pages link 
+There is an issue with the GitHub pages link <br>
 Explore the live demo of the Netflix Frontend Clone: 
 https://drive.google.com/file/d/18At6gB25UV39rebGhJ75hKExL9Z5fk5M/view?usp=drive_link)https://drive.google.com/file/d/18At6gB25UV39rebGhJ75hKExL9Z5fk5M/view?usp=drive_link
 
