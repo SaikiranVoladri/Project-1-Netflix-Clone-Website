@@ -1,6 +1,5 @@
 # Netflix Frontend Clone
 
-![Project Preview](View_Demo)
 ![homepage1](https://github.com/SaikiranVoladri/Project-1-Netflix-Clone-Website/assets/87108573/f2b8938f-348d-4620-9187-46c9115b991c)
 
 
@@ -16,8 +15,8 @@ Developed a responsive and visually appealing Netflix frontend clone using HTML,
 
 ## Live Demo
 
-Explore the live demo of the Netflix Frontend Clone: [View Demo]()
-(https://drive.google.com/file/d/18At6gB25UV39rebGhJ75hKExL9Z5fk5M/view?usp=drive_link)https://drive.google.com/file/d/18At6gB25UV39rebGhJ75hKExL9Z5fk5M/view?usp=drive_link
+Explore the live demo of the Netflix Frontend Clone: 
+https://drive.google.com/file/d/18At6gB25UV39rebGhJ75hKExL9Z5fk5M/view?usp=drive_link)https://drive.google.com/file/d/18At6gB25UV39rebGhJ75hKExL9Z5fk5M/view?usp=drive_link
 
 
 
